@@ -1,25 +1,30 @@
-# [PROJECT TITLE]
+# Filter_Amplifier
 
-[![release](https://img.shields.io/github/v/release/[GITHUB_USER]/[REPOSITORY]?label=release)](https://github.com/[GITHUB_USER]/[REPOSITORY]/releases)
-[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/TIH-engineering/Filter_Amplifier?label=release)](https://github.com/TIH-engineering/Filter_Amplifier/releases)
+[![Build](https://github.com/TIH-engineering/Filter_Amplifier/actions/workflows/build.yml/badge.svg)](https://github.com/TIH-engineering/Filter_Amplifier/actions/workflows/build.yml)
 ![Hardware](https://img.shields.io/badge/Hardware-KiCad-blue)
 ![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey)
 
 ## 🔌 Leiterplattenbeschreibung
 
-Die Leiterplatte **[PROJECT TITLE]** wurde für [kurze Beschreibung des Einsatzzwecks] entwickelt.
+Die Leiterplatte **Filter_Amplifier** dient zur praktischen Untersuchung von **aktiven Filtern und Operationsverstärkerschaltungen**. Sie wurde insbesondere für Laborübungen im Bereich Elektronik und Messtechnik entwickelt.
 
-[Hier 2–4 Sätze zur Funktion der Leiterplatte, zum Aufbau und zum vorgesehenen Einsatz.]
+Die Schaltung besteht aus zwei hintereinander geschalteten Operationsverstärkerstufen mit einem **LM358**. Durch unterschiedliche Jumperstellungen können verschiedene Schaltungsvarianten realisiert und messtechnisch untersucht werden.
 
-### Funktionen
+Folgende Betriebsarten sind vorgesehen:
 
-- [Funktion / Schaltung 1]
-- [Funktion / Schaltung 2]
-- [Funktion / Schaltung 3]
+- **nichtinvertierende Verstärkerschaltung**
+- **Tiefpass 1. Ordnung**
+- **Tiefpass 2. Ordnung**
+- **Hochpass 1. Ordnung**
+- **Hochpass 2. Ordnung**
+- Untersuchung des Einflusses einer **kapazitiven Last** auf die Stabilität des Operationsverstärkers
 
-[Optionaler Absatz zu besonderen Eigenschaften, Messpunkten, austauschbaren Bauteilen, Schnittstellen usw.]
+Für die Filterschaltungen sind unterschiedliche Widerstands- und Kondensatorwerte vorgesehen. Dadurch können verschiedene Grenzfrequenzen eingestellt und deren Einfluss auf den Frequenzgang untersucht werden.
 
-> **Einsatzgebiet:** [Kurze Beschreibung des vorgesehenen Einsatzes]
+Ein- und Ausgang stehen über Koaxialanschlüsse zur Verfügung, sodass die Schaltung beispielsweise mit **Funktionsgenerator und Oszilloskop** vermessen werden kann. Die konfigurierbare Struktur ermöglicht insbesondere die experimentelle Untersuchung von **Verstärkung, Grenzfrequenz, Amplitudengang, Phasengang und Stabilität**.
+
+> **Einsatzgebiet:** Laborübungen und Unterricht im Bereich Operationsverstärker, aktive Filter und Frequenzgangmessung
 
 ---
 
@@ -61,10 +66,10 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 | Eigenschaft | Wert |
 |---|---|
-| **Projekt** | [PROJECT TITLE] |
+| **Projekt** | Filter_Amplifier |
 | **Software** | KiCad 10 |
-| **Repository** | [GITHUB_USER]/[REPOSITORY] |
-| **Autor** | [NAME] |
+| **Repository** | TIH-engineering/Filter_Amplifier |
+| **Autor** | TIH |
 | **Lizenz** | CC BY-NC-SA 4.0 |
 
 ---
